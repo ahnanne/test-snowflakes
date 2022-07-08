@@ -1,3 +1,6 @@
-import * as wasm from "hello-wasm-pack";
+import * as wasm from "@yein/snowflakes";
 
-wasm.greet();
+const { SnowCanvas } = wasm;
+const test = SnowCanvas.new();
+
+export default test;
